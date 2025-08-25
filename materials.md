@@ -79,6 +79,8 @@ Programming assignments will be assigned and collected [via Gradescope](https://
 
 The following is a planned schedule of the material we will cover in the course, as well as when we will cover it.  The mapping between content and dates below _is subject to change_ depending on how quickly we move.  The current schedule is  optimistic, and I would like to cover all of this material.  However, it's much more important that the class understand the material we cover than that we get to all of the topics I'd like to discuss.  Thus, the time we spend on certain topics and the precise list of topics we cover is subject to change throughout the semester depending on our pace. 
 
+** NOTE ** : This is an outdated schedule, not yet adapted for Fall 2025 yet.
+
 - Week of Aug 26.
   - Course introduction, logistics & goals
   - Overview of bioinformatics, basic biology & biotechnology
@@ -89,8 +91,6 @@ The following is a planned schedule of the material we will cover in the course,
  
 - Week of Sept 9.
   - Exact string matching continued (semi-numeric matching)
-    - Guest Lecture Sept. 10 (Prof. Mihai Pop)
-  - No class Sept 12. (Rob @ scVerse conference)
 
 - Week of Sept 16. 
   - Text indexing for rapid search (overview & Suffix Trie)
@@ -130,15 +130,12 @@ The following is a planned schedule of the material we will cover in the course,
 
 - Week of Nov 25.
   - Phylogenomics parsimony / maximum likelihood
-  - Thurs. Nov 24 : No class (Thanksgiving)
   
 - Dec 2.
   - Current problems & research topics in computational biology
 
 - Dec 9.
   - Wrap-up/review last day of class
-
-- Dec 11 : Final Exam (10:00am-12:30pm) **Note: University assigned time different than class time; exam in normal class room**
 
 
 ## Course Policies
