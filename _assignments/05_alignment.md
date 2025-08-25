@@ -2,7 +2,7 @@
 type: assignment
 date: 2024-11-18T11:59:00+5:00
 title: "Project 5: Pairwise Alignment"
-published: true
+published: false
 #pdf: /static_files/assignments/asg.pdf
 #attachment: /static_files/assignments/asg.zip
 #solutions: /static_files/assignments/asg_solutions.pdf
