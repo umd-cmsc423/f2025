@@ -14,7 +14,7 @@ Here you'll find an overview of the course — the material I expect we'll cover
 
 * Course Website : [https://umd-cmsc423.github.io/f2025/](https://umd-cmsc423.github.io/f2025/)
 * Instructor : Rob Patro
-* Instructor office hours: TBA
+* Instructor office hours: TBA (IRB 3220)
 * Class location: IRB 2207
 * Class days/time: Tuesdays/Thursdays 11:00 AM — 12:15 PM
 * TA : 
@@ -29,7 +29,7 @@ that the e-mail receives appropropriate priority and doesn't get routed to SPAM.
 **Links**: 
 
  * In general, _this website_ is the place to look for course content and course news.  Any content that is private / restricted (e.g. grades) will be made available on the ELMS page for this course.
- * Assignment announcements and deadlines will be posted on the [Gradescope page for this course](https://www.gradescope.com/courses/837042), and grading information will be made available there.
+ * Assignment announcements and deadlines will be posted on the [Gradescope page for this course](https://www.gradescope.com/courses/1101775), and grading information will be made available there.
  * The course also has a Piazza page for discussions.  The Piazza page will be used actively this semester, and is the most relevant location for asking and finding answers for questions related to specific course content, including the projects and exams. Please register for this course on Piazza [here](https://piazza.com/umd/fall2025/cmsc423).
 
 **Textbook(s)**: Based on previous feedback in the course, there is no required textbook for the class. Resources, where relevant, will be provided via links on the course website accompanying the slides or lecture notes. However, this is an _upper-level_ course, and you should _absolutely_ seek out other sources explaining these topics from different angles, using different notations and examples, etc.  Of course, you should also _absolutely_ reach out to the TA and me if you are having trouble understanding a topic in the course and have been unable to become comfortable with it from the lecture slides and other sources.  Here are some (non-required) textbooks that I personally recommend as references for different topics:
@@ -73,7 +73,7 @@ The course website is [https://umd-cmsc423.github.io/f2025](https://umd-cmsc423.
 
 The course has a Piazza page, and you can enroll [here](http:///www.piazza.com/umd/fall2025/cmsc423).  I encourage you to interact with each other, raise questions, and discuss course topics using Piazza.  This is also the best place to raise general questions about material we cover in the course (as opposed to e.g. an e-mail), since other students can see the response and ask follow-up questions.  This helps to reduce redundancy in the answering of questions.
 
-Programming assignments will be assigned and collected [via Gradescope](https://www.gradescope.com/courses/837042). You should be automatically added via roster sync with Canvas; however, if you find you are unable to access the Gradescope page, please reach out to the course staff to let us know so that we can make sure you are added.
+Programming assignments will be assigned and collected [via Gradescope](https://www.gradescope.com/courses/1101775). You should be automatically added via roster sync with Canvas; however, if you find you are unable to access the Gradescope page, please reach out to the course staff to let us know so that we can make sure you are added.
 
 ## Course  Schedule
 
