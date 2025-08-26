@@ -77,67 +77,67 @@ Programming assignments will be assigned and collected [via Gradescope](https://
 
 ## Course  Schedule
 
-The following is a planned schedule of the material we will cover in the course, as well as when we will cover it.  The mapping between content and dates below _is subject to change_ depending on how quickly we move.  The current schedule is  optimistic, and I would like to cover all of this material.  However, it's much more important that the class understand the material we cover than that we get to all of the topics I'd like to discuss.  Thus, the time we spend on certain topics and the precise list of topics we cover is subject to change throughout the semester depending on our pace. 
+The following is a _planned_ schedule of the material we will cover in the course, as well as when we will cover it.  The mapping between content and dates below _is subject to change_ depending on how quickly we move.  The current schedule is  optimistic, and I would like to cover all of this material.  However, it's much more important that the class understand the material we cover than that we get to all of the topics I'd like to discuss.  Thus, the time we spend on certain topics and the precise list of topics we cover is subject to change throughout the semester depending on our pace. 
 
-** NOTE ** : This is an outdated schedule, not yet adapted for Fall 2025 yet.
-
-- Week of Aug 26.
+- Week of Sept 1.
   - Course introduction, logistics & goals
   - Overview of bioinformatics, basic biology & biotechnology
-
-- Week of Sept 2.
+ 
+- Week of Sept 8.
   - Exact string matching
   - KMP & Z algorithms
- 
-- Week of Sept 9.
-  - Exact string matching continued (semi-numeric matching)
 
-- Week of Sept 16. 
+- Week of Sept 15. 
+  - Exact string matching continued (semi-numeric matching)
+  
+- Week of Sept 22.
   - Text indexing for rapid search (overview & Suffix Trie)
   - Suffix Arrays
   
-- Week of Sept 23.
+- Week of Sept 29.
   - BWT and FM-index
   - more BWT and FM-index
-  
-- Week of Sept 30.
+
+- Week of Oct 6.
   - Midterm 1 (in class)
   - Sequence alignment & dynamic programming
-
-- Week of Oct 7.
+  
+- Week of Oct 13.
+  - No class Oct. 14th; Fall break
   - Sequence alignment continued (local and semi-local variants)
+  
+- Week of Oct 20.
+  - Guest lecture Oct 21st (Rob attending CZI Open Science meeting)
   - Sequence alignment continued, linear space & bounded edit distance
-  
-- Week of Oct 14.
-  - Seeding / chaining and read alignment
-  
-- Week of Oct 21.
-  - Spliced alignment & RNA sequencing
-  - Estimating transcript expression
 
-- Week of Oct 28.
-  - More estimation of transcript expression
+- Week of Oct 27.
+  - Seeding / chaining and read alignment
+  - Spliced alignment & RNA sequencing
   
-- Week of Nov 4.
-  - Midterm 2 (in class, Nov 7)
+- Week of Nov 3.
+  - Estimating transcript expression
+  - More estimation of transcript expression
  
-- Week of Nov 11.
+- Week of Nov 10.
+  - Midterm 2 (in class, Nov 7)
+  
+- Week of Nov 17.
   - Genome sequencing and assembly
   - The de Bruijn graph and compacted de Bruijn graph
-  
-- Week of Nov 18.
+
+- Week of Nov 24.
   - Other uses of the de Bruijn graph
-
-- Week of Nov 25.
-  - Phylogenomics parsimony / maximum likelihood
+  - Nov. 27-th Thanksgiving; no class
   
-- Dec 2.
-  - Current problems & research topics in computational biology
+- Dec 1.
+  - Phylogenomics parsimony / maximum likelihood
 
-- Dec 9.
+- Dec 8.
+  - Current problems & research topics in computational biology
   - Wrap-up/review last day of class
 
-
+- Dec 15.
+  - Final exam on **Monday** Dec. 15th, 10:30 - 12:30, in the normal class room.
 ## Course Policies
 
 **Coursework and grading**: The coursework will consist of a number of different programming projects, a midterm exam and a final exam. The breakdown of weights for these different assignments will be as follows:
@@ -152,9 +152,9 @@ The following is a planned schedule of the material we will cover in the course,
 **Regrade policy**: All requests to re-grade, re-check, or re-mark an assignment or exam question **must be made in writing**. When the assignment is re-graded, it will be re-checked in its entirety. This means that *it is possible to lose points on other problems if they were graded incorrectly or too leniently the first time*. Therefore, I urge you to thoroughly consider each regrade request you make.
 
 ### Absences / scheduling accomodations 
-  - medical reasons: (Obviously,) If you are exhibiting any symptoms indicative of COVID-19 or have been in contact with someone who is infected, **please do not attend class in person** and test yourself. If, for a health-related or medical reason, you will miss two or more consecutive classes, or will miss class on a recurring basis, or were unable to meet a particular academic obligation of this course, I will require a written note from the Student Health Service or a healthcare provider documenting the range of dates for which you were unable to meet your academic obligations. This note need not contain any diagnostic information. 
+  - medical reasons: If, for a health-related or medical reason, you will miss two or more consecutive classes, or will miss class on a recurring basis, or were unable to meet a particular academic obligation of this course, I will require a written note from the Student Health Service or a healthcare provider documenting the range of dates for which you were unable to meet your academic obligations. This note need not contain any diagnostic information. 
   
-  - non-medical reasons: If you will miss any classes or scheduled exams as a result of religious observances, you must submit this information to me, in writing, **within the first two weeks of the semester** to make necessary accommodations to complete the work that will be missed. In this course, this applies mostly to notifying me about expected absences from class.  The homeworks and projects are assigned far-enough in advance that it is not reasonable that extensions or delays be provided for religious reasons.
+  - non-medical reasons: If you will miss any classes or scheduled exams as a result of religious observances, you must submit this information to me, in writing, **within the first two weeks of the semester** to make necessary accommodations to complete the work that will be missed. In this course, this applies mostly to notifying me about expected absences from class.  The homeworks and projects are assigned far-enough in advance that it is not reasonable that extensions or delays be provided for religious or temporary health-related reasons.
 
 **Final Grades**: The grade you receive in this class will reflect, as much as possible, the degree to which you have mastered the necessary material. How much somebody “needs” an ‘A’ will have no bearing on whether or not (s)he receives an ‘A’, other than how this need or desire is reflected in the work that (s)he does. I want everyone to do well in this course, and will make every reasonable effort to help you understand the material as well as possible. However, barring errors in the grading of assignments, the grades you receive at the end of the semester are final, and I will not alter them for personal or non-academic reasons, *so please do not ask me to*!
 
@@ -180,7 +180,7 @@ The following is a planned schedule of the material we will cover in the course,
 
 Academic integrity is a very serious issue. Any assignment, project or exam you complete in this course is expected to be your own work. If you are allowed to discuss the details of or work together on an assignment, this will be made explicit. Otherwise, you are expected to complete the work yourself. *Plagarism is not just the outright copying of content*. If you paraphrase someone else's thoughts, words, or ideas and you don't cite your source, this constitues plagraism. It is always much better to turn in an incorrect or incomplete assignment representing your own efforts than to attempt to pass off the work of another as your own. **If you are academically dishonest in this course, you will recieve a grade of XF, and you will be reported to the university's Office of Student Conduct**.
 
-**Generative AI / ChatGPT Policy** : The purpose of the programming assignments in the course is for *you* to understand and implement the data structures and algorithms we will cover.  Therefore, you _should not_ use generative AI (e.g. ChatGPT, Co-pilot, etc.) to implement any considerable or non-trivial part of your assignment.  If you do make use of generative AI for any specific code (e.g. utility functions, file parsing, etc.), you must comment directly in the code the generative AI model you used, and the prompt to which the resulting code was a response.
+**Generative AI / ChatGPT Policy** : The purpose of the programming assignments in the course is for *you* to understand and implement the data structures and algorithms we will cover.  Therefore, you _should not_ use generative AI (e.g. ChatGPT, Co-pilot, Claude, etc.) to implement any considerable or non-trivial part of your assignment.  If you do make use of generative AI for any specific code (e.g. utility functions, file parsing, etc.), you must comment directly in the code the generative AI model you used, and the prompt to which the resulting code was a response. Use of generative AI for core algorithmic or data strcuture components of the project, or failure to disclose the use of generative AI for any part of a project, will constitute a violation of academic integrity with respect to this course.
 
 ### Accessibility and Disability Service, ADS
 
