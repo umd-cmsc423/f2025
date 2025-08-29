@@ -61,7 +61,24 @@ We will cover the basic required molecular Biology in the course. However if you
 
 While you should have had, in the prerequisites for this course, exposure to the relevant tools (e.g. how to properly create a tarball, how to invoke the compiler from the command line / a script), I realize it may have been a while since you have used these skills. If you feel you need a refresher on these topics, I would strongly suggest checking out ["The missing semester"](https://missing.csail.mit.edu/) (an MIT course dedicated to these various miscellaneous topics).
 
-**Expectations**: Since this is a computational biology course, you will be expected to become familiar with the relevant biology — it is an important and inextricable part of the material, and the underlying biology provides motivation for the computational problems we will tackle.  However, as an upper-level computer science course, **our focus will be on the computational aspects of bioinformatics and genomics**.  It is expected that you enter the class with a strong understanding of algorithms and basic data structures, and that you leave the class with a knowledge of how algorithm and data structure design can be fruitfully applied to biological data. Additionally, this course makes use of programming assignments to help reinforce material we cover during lectures and to help you understand certain concepts in even more depth (by _implementing_ them).  As such, **programming is an important part of this course**, and dynamic languages (e.g. Python) are ill-suited for many of the problems we will tackle.  We attempt to provide maximal freedom in the languages you can use for the assignemnts in the class, but we will require the assignments to be completed in a _compiled_ language. The submission server supports, Java, C, C++, Rust, and Go — we will consider reasonable requests for other compiled languages as well.
+**Expectations**: Since this is a computational biology course, you will be
+expected to become familiar with the relevant biology — it is an important and
+inextricable part of the material, and the underlying biology provides
+motivation for the computational problems we will tackle.  However, as an
+upper-level computer science course, **our focus will be on the computational
+aspects of bioinformatics and genomics**.  It is expected that you enter the
+class with a strong understanding of algorithms and basic data structures, and
+that you leave the class with a knowledge of how algorithm and data structure
+design can be fruitfully applied to biological data. Additionally, this course
+makes use of programming assignments to help reinforce material we cover during
+lectures and to help you understand certain concepts in even more depth (by
+_implementing_ them).  As such, **programming is an important part of this
+course**, and dynamic languages (e.g. Python) are ill-suited for many of the
+problems we will tackle.  We attempt to provide maximal freedom in the
+languages you can use for the assignemnts in the class, but we will require the
+assignments to be completed in a _compiled_ language. The submission server
+supports, Rust, C, C++, Java, and Go — we will consider reasonable requests for
+other compiled languages as well.
 
 ## Course Objectives
 
@@ -115,22 +132,23 @@ The following is a _planned_ schedule of the material we will cover in the cours
   - Spliced alignment & RNA sequencing
   
 - Week of Nov 3.
-  - Estimating transcript expression
-  - More estimation of transcript expression
+  - Phylogenomics parsimony 
+  - Phylogenomics maximum likelihood
  
 - Week of Nov 10.
-  - Midterm 2 (in class, Nov 7)
+  - Midterm 2 (in class)
+  - Estimating transcript expression
   
 - Week of Nov 17.
-  - Genome sequencing and assembly
-  - The de Bruijn graph and compacted de Bruijn graph
+  - More estimation of transcript expression
 
 - Week of Nov 24.
-  - Other uses of the de Bruijn graph
+  - Genome sequencing and assembly
   - Nov. 27-th Thanksgiving; no class
   
 - Dec 1.
-  - Phylogenomics parsimony / maximum likelihood
+  - The de Bruijn graph and compacted de Bruijn graph
+  - Other uses of the de Bruijn graph
 
 - Dec 8.
   - Current problems & research topics in computational biology
@@ -138,6 +156,7 @@ The following is a _planned_ schedule of the material we will cover in the cours
 
 - Dec 15.
   - Final exam on **Monday** Dec. 15th, 10:30 - 12:30, in the normal class room.
+
 ## Course Policies
 
 **Coursework and grading**: The coursework will consist of a number of different programming projects, a midterm exam and a final exam. The breakdown of weights for these different assignments will be as follows:
