@@ -19,7 +19,7 @@ Here you'll find an overview of the course — the material I expect we'll cover
 * Class days/time: Tuesdays/Thursdays 11:00 AM — 12:15 PM
 * TA : 
   - Rachel Parsons (rparsons@umd.edu)
-    - Office Hours: TBA (AVW 4140)
+    - Office Hours: Thurs. 3 - 4 PM (AVW 4140)
 
 **Note**: In any e-mail correspondence related to the course, please be sure to include the string "[CMSC423-F25]" in the e-mail subject, to ensure 
 that the e-mail receives appropropriate priority and doesn't get routed to SPAM.
