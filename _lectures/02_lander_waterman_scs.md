@@ -1,11 +1,11 @@
 ---
 type: lecture
-date: 2024-08-28T4:00:00+4:30
+date: 2025-09-09T4:00:00+4:30
 title: Computational framing of Biological Problems
 tldr: "Lander Waterman & SCS as examples."
 thumbnail: /static_files/presentations/lec.jpg
-published: false
+published: true
 links: 
-    - url: /static_files/presentations/lecture_2.pdf
+    - url: /static_files/presentations/lec_2.pdf
       name: slides
 ---
