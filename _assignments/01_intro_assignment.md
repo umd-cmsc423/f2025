@@ -8,7 +8,7 @@ title: 'Assignment #1 - Using the command line and parsing input'
 published: true
 due_event: 
     type: due
-    date: 2025-09-16T4:00:00+4:30
+    date: 2025-09-16T11:59:00+4:30
     description: 'Assignment #1 due'
 ---
 
