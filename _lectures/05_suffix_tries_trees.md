@@ -1,11 +1,11 @@
 ---
 type: lecture
-date: 2024-09-17T4:00:00+4:30
+date: 2025-09-18T4:00:00+4:30
 title: Suffix Tries and Suffix Trees
 tldr: "The power of indexing"
 thumbnail: /static_files/presentations/lec.jpg
-published: false
+published: true
 links: 
-    - url: /static_files/presentations/lecture_5.pdf
+    - url: /static_files/presentations/lec_5.pdf
       name: slides
 ---
