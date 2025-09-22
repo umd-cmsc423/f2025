@@ -116,8 +116,8 @@ The following is a _planned_ schedule of the material we will cover in the cours
   - more BWT and FM-index
 
 - Week of Oct 6.
-  - Midterm 1 (in class)
   - Sequence alignment & dynamic programming
+  - Midterm 1 (in class; Thurs. Oct 9th)
   
 - Week of Oct 13.
   - No class Oct. 14th; Fall break
@@ -136,8 +136,8 @@ The following is a _planned_ schedule of the material we will cover in the cours
   - Phylogenomics maximum likelihood
  
 - Week of Nov 10.
-  - Midterm 2 (in class)
   - Estimating transcript expression
+  - Midterm 2 (in class; Thurs. Nov 13th)
   
 - Week of Nov 17.
   - More estimation of transcript expression
