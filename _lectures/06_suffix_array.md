@@ -1,11 +1,11 @@
 ---
 type: lecture
-date: 2024-09-19T4:00:00+4:30
+date: 2025-09-23T4:00:00+4:30
 title: Suffix Arrays
 tldr: "binary search FTW"
 thumbnail: /static_files/presentations/lec.jpg
-published: false
+published: true
 links: 
-    - url: /static_files/presentations/lecture_6.pdf
+    - url: /static_files/presentations/lec_6.pdf
       name: slides
 ---
