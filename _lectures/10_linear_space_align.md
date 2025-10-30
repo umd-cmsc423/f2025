@@ -1,11 +1,11 @@
 ---
 type: lecture
-date: 2024-10-17T4:00:00+4:30
+date: 2025-10-30
 title: Linear Space Alignment
 tldr: "Don't keep the whole matrix"
 thumbnail: /static_files/presentations/lec.jpg
-published: false
+published: true
 links: 
-    - url: /static_files/presentations/lecture_10.pdf
+    - url: /static_files/presentations/lec_10.pdf
       name: slides
 ---
