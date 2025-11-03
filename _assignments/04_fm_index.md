@@ -1,26 +1,21 @@
 ---
 type: assignment
-date: 2024-10-26T4:00:00+4:30
+date: 2025-11-04T12:15:00
 title: "Assignment #4: FM-index construction and search"
-#pdf: /static_files/assignments/asg.pdf
-#attachment: /static_files/assignments/asg.zip
-#solutions: /static_files/assignments/asg_solutions.pdf
-published: false
+published: true
 due_event: 
     type: due
-    date: 2024-11-07T11:59:00+4:30
+    date: 2025-11-18T23:59:00
     description: 'Assignment #4 due'
 ---
-
-**Due: Thurs Nov 7, 2024 (11:59PM)**  
 
 # Overview
 
 This assignment deals with the construction and querying of the FM index.  As we saw in class, having a useful FM index relies upon having (at least sampled) suffix array entries to recall the actual positions of the matching patterns. Thus, this project assumes that you have a working suffix array construction implementation.
 
-I encourage you to use your own suffix array construction routines from project 3.  However, if you didn't complete project 3 successfully and are therefore in need of an efficient suffix array construction implementation, you can find a starter project in Java [here](https://github.com/umd-cmsc423/f2024_project4_sample_java) and in C++ [here](https://github.com/umd-cmsc423/f2024_project4_sample_cpp).
+I encourage you to use your own suffix array construction routines from project 3.  However, if you didn't complete project 3 successfully and are therefore in need of an efficient suffix array construction implementation, you can find a starter project in Java [here](https://github.com/umd-cmsc423/project4_sample_java) and in C++ [here](https://github.com/umd-cmsc423/project4_sample_cpp).
 
-Sample data to test your implementation out locally is available [here](https://github.com/umd-cmsc423/f2024_project4_sample_data).
+Sample data to test your implementation out locally is available [here](https://github.com/umd-cmsc423/project4_sample_data).
 
 Much like project 3, your project will consist of 3 executables `buildfm`, `inspectfm`, and `queryfm` which are described in more detail below.  Though you will implement 3 programs, you can think of the project as being broken into two parts.
 
@@ -32,9 +27,9 @@ In the second part of the project, you will implement a program to read your ser
 
 ## Overall structure
 
-You will submit your assignment as a tarball named `CMSC423_F24_A4.tar.gz`.  When this tarball is expanded, it should create a **single** folder named `CMSC423_F24_A4`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
+You will submit your assignment as a tarball named `CMSC423_F25_A4.tar.gz`.  When this tarball is expanded, it should create a **single** folder named `CMSC423_F25_A4`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
 
- * There should be a script at the top-level of `CMSC423_F24_A4` called `build.sh`.  This should do whatever is necessary to create 3 executables at the top level (one called `buildfm` and one called `inspectfm` and one called `queryfm`).  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
+ * There should be a script at the top-level of `CMSC423_F25_A4` called `build.sh`.  This should do whatever is necessary to create 3 executables at the top level (one called `buildfm` and one called `inspectfm` and one called `queryfm`).  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
  
  * There should be a README.md file in the top level directory.  This README file should contain the following information.
      
