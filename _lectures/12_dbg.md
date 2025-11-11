@@ -1,11 +1,11 @@
 ---
 type: lecture
-date: 2024-10-29T4:00:00+4:30
+date: 2025-11-11T11:00:00
 title: The de Bruijn Graph
 tldr: "Thinking about k-mers"
 thumbnail: /static_files/presentations/lec.jpg
-published: false
+published: true
 links: 
-    - url: /static_files/presentations/lecture_12.pdf
+    - url: /static_files/presentations/lec_12.pdf
       name: slides
 ---
