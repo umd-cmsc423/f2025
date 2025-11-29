@@ -1,15 +1,15 @@
 ---
 type: assignment
-date: 2024-11-18T11:59:00+5:00
-title: "Project 5: Pairwise Alignment"
-published: false
+date: 2025-11-20T00:00:00
+title: "Assignment #5: Pairwise Alignment"
+published: true
 #pdf: /static_files/assignments/asg.pdf
 #attachment: /static_files/assignments/asg.zip
 #solutions: /static_files/assignments/asg_solutions.pdf
 #published: true
 due_event: 
     type: due
-    date: 2024-12-05T11:59:00+5:00
+    date: 2024-12-09T11:59:00
     description: 'Assignment #5 due'
 ---
 
@@ -26,15 +26,15 @@ In the first part of the project, you will implement global alignment, with _lin
 
 In the second part of the project, you will implement a fitting alignment, with _linear_ gap costs (the simplest) between pairs of strings.  This will compute everything computed by your global alignment, except that your program must also determine where on the reference (Y string) the optimal alignment _starts_ and where on the reference (Y string) the optimal alignent _ends_.  In the fitting alignment, gaps that occur in Y before X are free and gaps that occur in Y after X are free.  Rather than explicitly represent these in the CIGAR string, you will instead record in your output the positions in Y that are aligned to X.
 
-**NOTE** : A skeleton setup for the project, along with test input and output data is available [here](https://github.com/umd-cmsc423/f2024_project5_sample).
+**NOTE** : A skeleton setup for the project, along with test input and output data is available [here](https://github.com/umd-cmsc423/project5_sample).
 
 **NOTE** : The timeout for all tests for the gradescope server will be 20 minutes
 
 ## Overall structure
 
-You will submit your assignment as a tarball named `CMSC423_F24_A5.tar.gz`.  When this tarball is expanded, it should create a **single** folder named `CMSC423_F24_A5`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
+You will submit your assignment as a tarball named `CMSC423_F25_A5.tar.gz`.  When this tarball is expanded, it should create a **single** folder named `CMSC423_F24_A5`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
 
- * There should be a script at the top-level of `CMSC423_F24_A5` called `build.sh`.  This should do whatever is necessary to create 1 executable at the top level called `saligner`.  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
+ * There should be a script at the top-level of `CMSC423_F25_A5` called `build.sh`.  This should do whatever is necessary to create 1 executable at the top level called `saligner`.  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
  
  * There should be a `README.md` file in the top level directory.  This README file should contain the following information.
      
