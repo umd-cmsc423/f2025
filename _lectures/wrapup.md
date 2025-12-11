@@ -1,11 +1,11 @@
 ---
 type: lecture
-date: 2024-12-05T4:00:00+4:30
+date: 2025-12-11
 title: Wrapup
 tldr: "That's all folks (well, not quite all)"
 thumbnail: /static_files/presentations/lec.jpg
-published: false
+published: true
 links: 
-    - url: /static_files/presentations/lecture_15.pdf
+    - url: /static_files/presentations/lec_15.pdf
       name: slides
 ---
