@@ -1,11 +1,11 @@
 ---
 type: assignment
-date: 2024-12-05T0:00:00+5:00
+date: 2025-11-29T0:00:00+5:00
 title: "Assignment #6: Picomap"
-published: false
+published: true
 due_event: 
     type: due
-    date: 2024-12-16T11:59:00+5:00
+    date: 2025-12-15T11:59:00
     description: 'Assignment #6 due'
 ---
 
@@ -13,7 +13,7 @@ due_event:
 
 **Note**: This is a **bonus** project; you are not required to complete it. However, if you do choose to do it, it will count as extra credit in your final grade.  Specifically, this project is worth up to 4 extra credit points in your final grade (i.e. a 100% on this project will raise your final point grade --- after any curve is applied --- by 4 points).  Because this is a bonus project, and because I've made the due date as late as I reasonably can, **no late submissions will be accepted for this assignment**.
 
-**Note**: The sample data (and project skeleton) for project 5 are available [here](https://github.com/umd-cmsc423/f2024_project6_sample).
+**Note**: The sample data (and project skeleton) for project 5 are available [here](https://github.com/umd-cmsc423/project6_sample).
 
 This project is a synthesis of the previous projects that you've worked on this semester.  You will put together your capability for exact matching (as performed via either the suffix array or the FM-index) with your ability to perform fitting alignment to build a small proof-of-concept read aligner to align sequencing reads against target genomes.  In addition to the ability to look up exact strings and perform alignment, the main novel part of this project is to implement a seeding and filtering heuristic to decide _where_ you should score reads for alignment.  Specifically, when your seed is highly-specific, and there is only one (or a couple) of potential mapping locations for a read, you can test an alignment at all such locations.  However, if your seed appears in many locations in the genome, then you will generally want to restrict the set of potential mapping locations further by looking up more seeds from the read and filtering out the set of candidate locations that explain all of them.
 
@@ -25,9 +25,9 @@ The index will be used for efficient seed lookup in the genome, to determine can
 
 ## Overall structure
 
-You will submit your assignment as a tarball named `CMSC423_F24_A6.tar.gz`.  When this tarball is expanded, it should create a **single** folder named `CMSC423_F24_A6`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
+You will submit your assignment as a tarball named `CMSC423_F25_A6.tar.gz`.  When this tarball is expanded, it should create a **single** folder named `CMSC423_F25_A6`.  This folder must be created in the directory where the decompression (i.e. `tar xzvf`) is done, and must not be nested inside any other folders. The details of how you structure your "source tree" are up to you, but the following **must** hold (to enable proper automated testing of your programs).
 
- * There should be a script at the top-level of `CMSC423_F24_A6` called `build.sh`.  This should do whatever is necessary to create 2 executables at the top level called `picoindex` and `picomap`.  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
+ * There should be a script at the top-level of `CMSC423_F25_A6` called `build.sh`.  This should do whatever is necessary to create 2 executables at the top level called `picoindex` and `picomap`.  If you're comfortable with Makefiles, this can just call `make`, or it could simply run the commands necessary to compile your programs and copy them to the top-level directory.  You can assume this script is run in a `bash` shell.
  
  * There **must** be a **README.md** *file in the top level directory.  This README.md file should contain the following information.
      
